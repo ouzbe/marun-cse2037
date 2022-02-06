@@ -1,6 +1,8 @@
 #include "mbed.h"
 
-#define WAIT_MSEC 20PwnOut LED(p20);
+#define WAIT_MSEC 20
+
+PwnOut LED(p20);
 
 InterruptIn enter_Sensor(p10);
 InterruptIn enter_Sensor(p10);
